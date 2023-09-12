@@ -1,0 +1,37 @@
+.post-card {
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+	width: 300px;
+	height: 437px;
+	margin: 30px 20px 100px;
+	transition: transform 0.3s ease-in-out;
+	padding: 0;
+	cursor: pointer;
+}
+.post-card:hover {
+	transform: translateY(-10px);
+}
+.post-image-container {
+	max-height: 225px;
+	width: 100%;
+	margin: 0;
+	border-radius: 8px 8px 0 0;
+	overflow: hidden;
+}
+.post-image {
+	max-height: 325px;
+	width: 100%;
+	margin: 0;
+}
+.posts-list {
+	display: flex;
+}
+.post-details {
+	margin: 20px;
+	display: block;
+}
+.blog-title {
+	font-size: 32px;
+	margin: 84px 20px 20px;
+}
